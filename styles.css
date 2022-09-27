@@ -1,0 +1,55 @@
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f2937;
+  }
+
+  li {
+    float: left;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: #e5e7eb ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Header section */
+
+.container{
+    background-color: #1f2937;
+}
+
+#h1c {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#p1c {
+font-size: 18px;
+color: #e5e7eb;
+}
+
+
+
+
+
+
