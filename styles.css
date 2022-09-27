@@ -48,8 +48,19 @@ font-size: 18px;
 color: #e5e7eb;
 }
 
+/* Gallery */
 
-
+.container1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .container1 img {
+    width: 100%;
+    height: auto;
+  }
 
 
 
