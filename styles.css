@@ -35,7 +35,9 @@ ul {
 
 .container{
     background-color: #1f2937;
-}
+    display: block;
+    margin-bottom: 100px;
+    z-index: 1;
 
 #h1c {
     font-size: 48px;
@@ -52,15 +54,34 @@ color: #e5e7eb;
 
 .container1 {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    margin-top: 50px;
+    background-color: #e5e7eb;
+    display: block;
+    z-index: 1;
   }
   
-  .container1 img {
+  .container1 .img {
     width: 100%;
     height: auto;
+    margin-top: 100cm;
   }
+
+  /* Quote */
+
+  .container2 {
+    width: 800px;
+    padding: 50px;
+    margin: 25px;
+    height: 350px;
+    align-items: center;
+    display: block;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    z-index: 1;
+    
+  }
+
 
 
 
