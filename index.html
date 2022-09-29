@@ -6,58 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="container">
+  <div class="margin">
+    </div>
+    <header id="header">
+      <a id="headertext" href="#home">Header Logo</a>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Header1</a>
+        <a class="nav-link" href="#home">Header2</a>
+        <a class="nav-link" href="#home">Header3</a>
+      </nav>
+    </header>
 
-  <div class="navbar">
-    <ul>
-      <li><a class="active" href="#home">Header Logo</a></li>
-      <li><a href="#header1">Header1</a></li>
-      <li><a href="#header2">Header2</a></li>
-      <li><a href="#header3">Header3</a></li>
-    </ul>
-  </div>
+    <section class="main">
+      <div class="form">
+        <h1>This website is awesome</h1>
+        <p class="form-p"> This website has some subtext that goes here under main title.</p>
+        <button id="submit">Sign Up</button>
+      </div>
+    </section>
 
-  <div class="container">
-    <h1 id="h1c">This website is awesome</h1>
-    <p id="p1c">This website has some subtext that goes here under main title.</p>
-    <button id="button1">Sign up</button>
-    <img src="images/mainimg.jpeg" alt="image">
-  </div>
+    <section id="about">
+      <div id="about-text">
+        <h1><span>This is some text</span></h1>
+        <br>
+        <p>more text..!</p>
+      </div>
+    </section>
 
-  <div class="container1">
-    <a href="images/img1.png">
-      <img src="images/img1.png" alt="pic1" width="200" height="200">
-    </a>
+    <section id="gallery">
+      <div class="pics">
+        <div class="grid">
+          <div class="cell"><img src="images/img1.png" class="responsive-image" alt=""></div>
+          <div class="cell"><img src="images/img1.png" class="responsive-image" alt=""></div>
+          <div class="cell"><img src="images/img1.png" class="responsive-image" alt=""></div>
+          <div class="cell"><img src="images/img1.png" class="responsive-image" alt=""></div>
+        </div>
+      </div>
+    </section>
 
-    <a href="images/img1.png">
-      <img src="images/img1.png" alt="pic1" width="200" height="200">
-    </a>
-
-    <a href="images/img1.png">
-      <img src="images/img1.png" alt="pic1" width="200" height="200">
-    </a>
-
-    <a href="images/img1.png">
-      <img src="images/img1.png" alt="pic1" width="200" height="200">
-    </a>
-  </div>
-
-  <div class="container2">
-    <h1 id="quote">This is an inspiring quote, or testimonial from a customer.</h1>
-    <p><span>-Thor, God of Thunder</span></p>
-  </div>
-
-  <div class="container3">
-    <div class="containerwrap">
-    <h2 id="footer">Call to action! Its time!</h2>
-    <p id="footer1">Sign up for our products by clicking sign up button</p>
-    <button id="buton">Sign Up</button>
-  </div>
-  </div>
-
-  <footer class="container">
-    <p>All right reserved!</p>
-  </footer>
-</body>
-</html>
-    
+    <section id="contact">
+      <h1><span>All Right Reserved!</span></h1>
+    </section>
+    </body>
+    </html>
